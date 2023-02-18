@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import BookNow from './pages/BookNow';
 import WorkPage from './pages/WorkPage';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 
@@ -14,6 +15,7 @@ function App() {
       <HomePage />
       <BookNow />
       <WorkPage />
+      <Contact />
       <Footer />
     </div>
     

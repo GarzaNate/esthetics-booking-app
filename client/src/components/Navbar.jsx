@@ -2,25 +2,27 @@ import React from "react";
 
 const Navbar = () => {
   const links = [
-      {
-        id: 1,
-        link: "Home",
-        href: "/#/"
-      },
-      {
-        id: 2,
-        link: "BookNow",
-        href: "/#/booknow"
-      },
-      {
-        id: 3,
-        link: "Work",
-        href: "/#/work"
-      },
-  ]
+    {
+      id: 1,
+      link: "Home",
+      href: "/#/",
+    },
+    {
+      id: 2,
+      link: "BookNow",
+      href: "/#/booknow",
+    },
+    {
+      id: 3,
+      link: "Work",
+      href: "/#/work",
+    },
+  ];
   return (
     <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4">
-      <div>Logo</div>
+      <div>
+        <h1 className="text-4xl text-pink-400 font-signature ml-2">EM Esthetics</h1>
+      </div>
       <div>
         <ul className="flex">
           {links.map(({ id, link, href }) => (
