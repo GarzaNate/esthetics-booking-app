@@ -1,3 +1,6 @@
 Primary colors
 
-tan: #fed7aa
+black
+white
+pink-400
+green-300
